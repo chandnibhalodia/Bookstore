@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-columns: 40% 60%;
+            height: 100vh;
+        }
+
+        #main1 {
+            /* border: 1px solid black; */
+            padding-top: 230px;
+            text-align: center;
+            color: aliceblue;
+            background: linear-gradient(to right, rgb(40, 40, 225), rgb(216, 144, 10));
+            /* -webkit-background-clip: text; */
+            /* -webkit-text-fill-color: transparent; */
+        }
+
+        #main1 h1 {
+            text-align: justify;
+            padding-left: 200px;
+            line-height: 0%;
+            font-size: 45px;
+        }
+
+        #main1 h2 {
+            text-align: justify;
+            padding-left: 200px;
+            margin-bottom: 35px;
+            font-size: 25px;
+        }
+
+        #main1 h3 {
+            margin-right: 10px;
+            line-height: 0%;
+        }
+
+        #main1 p {
+            margin-top: 50px;
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+
+        #main2 {
+            padding-left: 50px;
+            padding-top: 10px;
+        }
+
+        #main3 {
+            display: flex;
+            margin-top: 55px;
+        }
+
+        #main3 div {
+            margin-right: 80px;
+        }
+
+        #main3 input {
+            height: 25px;
+            width: 200px;
+        }
+
+        #main3 label {
+            font-size: 20px;
+        }
+
+        #main4 {
+            margin-top: 60px;
+            display: flex;
+        }
+
+        #main4 div {
+            margin-right: 100px;
+        }
+
+        #main4 input {
+            height: 25px;
+            width: 335px;
+        }
+
+        #main4 label {
+            font-size: 20px;
+        }
+
+        #main5 {
+            margin-top: 60px;
+        }
+
+        #main5 label {
+            font-size: 20px;
+        }
+
+        #main5 ::placeholder {
+            color: black;
+            font-weight: lighter;
+        }
+
+        #main5 p {
+            margin-top: 0px;
+            float: right;
+            padding-right: 65px;
+        }
+
+        #main6 {
+            margin-top: 55px;
+            text-align: center;
+            padding-right: 35px;
+        }
+
+        #main6 button {
+            padding: 5px 28px;
+            margin: 0px 20px;
+            border-radius: 25px;
+            font-size: 18px;
+        }
+
+        #main6 button:hover {
+            background-color: navy;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main1">
+        <h1>Bookly Store</h1>
+        <h3>get connected with us</h3>
+        <h3>Please enter the details</h3>
+    </div>
+    <div id="main2">
+        <h1>Create an account</h1>
+        <div id="main3">
+            <div>
+                <label>First Name</label> <br>
+                <input type="text" placeholder="First Name">
+            </div>
+            <div>
+                <label>Last Name</label> <br>
+                <input type="text" placeholder="Last Name">
+            </div>
+            <div>
+                <label>Age</label> <br>
+                <input type="number" placeholder="18-100">
+            </div>
+        </div>
+        <div id="main4">
+            <div>
+                <label>Mobile Number</label> <br>
+                <input type="number" placeholder="** **">
+            </div>
+            <div>
+                <label>Email Id</label> <br>
+                <input type="email" placeholder="abc@gmail.com">
+            </div>
+        </div>
+        <div id="main5">
+            <label>Description</label> <br>
+            <textarea name="" id="" cols="104" rows="7" placeholder="emailhg@gmail.com"></textarea>
+            <p>Max 1-150 characters</p>
+        </div>
+        <div id="main4">
+            <div>
+                <label>Password</label> <br>
+                <input type="password">
+            </div>
+            <div>
+                <label>Confirm Password</label> <br>
+                <input type="password">
+            </div>
+        </div>
+        <div id="main6">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
